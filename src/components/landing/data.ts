@@ -12,6 +12,8 @@ import dep2 from "@/assets/depoimento2.webp.asset.json";
 import dep3 from "@/assets/depoimento3.webp.asset.json";
 import dep4 from "@/assets/depoimento4.webp.asset.json";
 import dep5 from "@/assets/depoimento5.webp.asset.json";
+import brasil from "@/assets/bonus-brasil.webp.asset.json";
+import professor from "@/assets/professor.webp.asset.json";
 
 export const CHECKOUT_COMPLETO = "https://pay.lowify.com.br/go.php?offer=6wz9fns";
 export const CHECKOUT_BASICO = "https://pay.lowify.com.br/checkout.php?product_id=1SWsRZ";
@@ -45,7 +47,7 @@ export const bonuses = [
     from: "DE R$37",
   },
   {
-    src: null,
+    src: brasil.url as string | null,
     alt: "O Brasil na Segunda Guerra Mundial",
     title: "O Brasil na Segunda Guerra Mundial",
     desc: "Entenda a entrada do Brasil no conflito, a FEB e a participação brasileira na campanha da Itália.",
@@ -91,3 +93,5 @@ export const faq = [
     a: "Não. As instruções de acesso serão enviadas após a compra.",
   },
 ];
+
+export const professorImage: string = professor.url;
