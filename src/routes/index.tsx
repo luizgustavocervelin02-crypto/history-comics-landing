@@ -116,7 +116,7 @@ function Index() {
           </div>
 
           <div className="mx-auto mt-4 w-[90%] max-w-[420px]">
-            <CtaButton href={CHECKOUT_COMPLETO}>Quero minha HQ em quadrinhos ↓</CtaButton>
+            <CtaButton href="#planos">Quero minha HQ em quadrinhos ↓</CtaButton>
             <p className="mt-2.5 text-xs text-muted-foreground sm:text-sm">
               Acesso digital imediato • Leia no celular, tablet ou computador
             </p>
