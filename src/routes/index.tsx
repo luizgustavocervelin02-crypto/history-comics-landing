@@ -7,6 +7,7 @@ import {
   bonuses,
   faq,
   heroImage,
+  professorImage,
 } from "@/components/landing/data";
 import { ImageSlot } from "@/components/landing/ImageSlot";
 import { PreviewCarousel } from "@/components/landing/PreviewCarousel";
@@ -317,7 +318,7 @@ function Index() {
         <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-[minmax(0,320px)_minmax(0,1fr)] md:items-start">
           <div className="mx-auto w-full max-w-[320px]">
             <ImageSlot
-              src={null}
+              src={professorImage}
               alt="Foto do Professor Erasto"
               radius={12}
               ratio="3 / 4"
@@ -402,7 +403,7 @@ function Index() {
             personagens se conectaram entre 1939 e 1945.
           </p>
           <div className="mx-auto mt-6 w-full max-w-[420px]">
-            <CtaButton href={CHECKOUT_COMPLETO}>Quero acessar a HQ completa</CtaButton>
+            <CtaButton href="#planos">Quero acessar a HQ completa</CtaButton>
           </div>
         </div>
       </section>
