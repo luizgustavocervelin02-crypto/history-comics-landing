@@ -72,8 +72,9 @@ export function TestimonialsCarousel() {
       </div>
 
       <p className="mt-4 text-center text-xs text-muted-foreground">
-        Imagens ilustrativas. Depoimentos reais serão exibidos assim que enviados.
+        Mensagens enviadas por leitores. Resultados e experiências podem variar.
       </p>
+
     </div>
   );
 }
