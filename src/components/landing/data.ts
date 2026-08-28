@@ -7,6 +7,11 @@ import previa5 from "@/assets/previa5.webp.asset.json";
 import previa6 from "@/assets/previa6.webp.asset.json";
 import atlas from "@/assets/bonus-atlas.webp.asset.json";
 import linha from "@/assets/bonus-linha.webp.asset.json";
+import dep1 from "@/assets/depoimento1.webp.asset.json";
+import dep2 from "@/assets/depoimento2.webp.asset.json";
+import dep3 from "@/assets/depoimento3.webp.asset.json";
+import dep4 from "@/assets/depoimento4.webp.asset.json";
+import dep5 from "@/assets/depoimento5.webp.asset.json";
 
 export const CHECKOUT_COMPLETO = "https://pay.lowify.com.br/go.php?offer=6wz9fns";
 export const CHECKOUT_BASICO = "https://pay.lowify.com.br/checkout.php?product_id=1SWsRZ";
@@ -49,11 +54,11 @@ export const bonuses = [
 ];
 
 export const testimonials: Slide[] = [
-  { src: null, alt: "Depoimento 01" },
-  { src: null, alt: "Depoimento 02" },
-  { src: null, alt: "Depoimento 03" },
-  { src: null, alt: "Depoimento 04" },
-  { src: null, alt: "Depoimento 05" },
+  { src: dep1.url, alt: "Depoimento de Marcos sobre a HQ da Segunda Guerra Mundial" },
+  { src: dep2.url, alt: "Depoimento de Renata sobre a leitura da HQ no tablet" },
+  { src: dep3.url, alt: "Depoimento de Carlos, professor de História" },
+  { src: dep4.url, alt: "Depoimento de Diego sobre o período de 1933 a 1939" },
+  { src: dep5.url, alt: "Depoimento de Patrícia sobre o atlas e a linha do tempo" },
 ];
 
 export const faq = [
